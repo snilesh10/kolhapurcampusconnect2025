@@ -30,7 +30,7 @@ color:#000000 !important;
 }
 .is-style-asterisk:before {
     
-    width: 4rem !important;
-    height: 4rem !important;
+    width: 1.5rem;
+    height: 3rem;
     background: #3F5EEA !important;
     display: block;}
