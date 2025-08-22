@@ -40,3 +40,6 @@ header .wp-block-navigation-item a{
     height: 3rem;
     background: #3F5EEA !important;
     display: block;}
+    .cc-kop-gradient-bg{
+        background: linear-gradient(90deg, rgba(4, 42, 68, 0.85) 0%, rgba(10, 105, 170, 0.85) 100%); padding:6px 40px; color:#ffffff; font-size:17px; text-transform:uppercase; 
+    }
