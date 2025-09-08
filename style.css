@@ -47,3 +47,7 @@ header .wp-block-navigation-item a{
         background: linear-gradient(to right, #1A2A4F, #3757e8, #1A2A4F) !important;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.9) !important;
         padding:8px 10px !important; color:#ffffff !important; font-size:20px !important;  font-family: "Jost", sans-serif !important;}
+
+        .why-columns figure{
+            background:orange !important;
+        }
