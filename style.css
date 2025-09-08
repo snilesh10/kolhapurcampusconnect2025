@@ -38,7 +38,7 @@ header .wp-block-navigation-item a{
     
     width: 1.5rem;
     height: 3rem;
-    background: #3F5EEA !important;
+    background: #FF6600 !important;
     display: block;}
     .cc-kop-gradient-bg{
         /*background: linear-gradient(90deg, rgba(56, 88, 233, 1) 50%, rgba(26, 42, 79, 1) 100%);
@@ -54,6 +54,17 @@ header .wp-block-navigation-item a{
     padding: 14px;
     border-radius: 14px;
         }
+
+ #commentform #submit,#tix input[type=submit]{
+	background:#FF6600 !important;
+	color:#ffffff !important;
+	border-radius: 4px !important;
+	border:0px !important;
+}
+#tix input[type=submit]{
+	padding:8px 15px !important;
+	font-size:1.1em !important;
+}       
  /* Tickets Table */
 .tix_tickets_table {
     width: 100%;
