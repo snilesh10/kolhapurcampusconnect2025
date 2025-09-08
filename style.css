@@ -50,4 +50,7 @@ header .wp-block-navigation-item a{
 
         .why-columns figure{
             background:orange !important;
+            display: inline-flex;
+    padding: 14px;
+    border-radius: 14px;
         }
