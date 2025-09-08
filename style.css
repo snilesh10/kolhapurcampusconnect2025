@@ -10,7 +10,7 @@ header .wp-block-navigation-item a{
   
 
 }
-.campus-home-hero{
+#campus-home-hero{
     background: #FF6600;
 background: linear-gradient(180deg,rgba(255, 102, 0, 1) 0%, rgba(213, 88, 4, 1) 50%) !important;
 }
