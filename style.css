@@ -55,7 +55,7 @@ header .wp-block-navigation-item a{
     border-radius: 14px;
         }
 
- #commentform #submit,#tix input[type=submit]{
+ #commentform #submit,#tix input[type=submit],.contact-submit button[type=submit]{
 	background:#FF6600 !important;
 	color:#ffffff !important;
 	border-radius: 4px !important;
