@@ -61,7 +61,7 @@ header .wp-block-navigation-item a{
 	border-radius: 4px !important;
 	border:0px !important;
 }
-#tix input[type=submit]{
+#tix input[type=submit],.contact-submit button[type=submit]{
 	padding:8px 15px !important;
 	font-size:1.1em !important;
 }       
