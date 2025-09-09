@@ -17,6 +17,9 @@ background: linear-gradient(180deg,rgba(255, 102, 0, 1) 0%, rgba(213, 88, 4, 1) 
 .location-pin{
     max-width:10px !important;
 }
+footer{
+	margin-top:0px !important;
+}
 .wcb_sponsor figure
 {
 	aspect-ratio: 16 / 9 !important;
