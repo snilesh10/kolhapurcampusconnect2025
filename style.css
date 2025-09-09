@@ -305,6 +305,5 @@ table.camptix-invoice-details tr td input[type=text],table.camptix-invoice-detai
 	}
 #cc-partner-collages img{
 	background:#333333 !important;
-	max-width:300px !important;
-	height:auto !important;
+	padding:30px !important;
 }
