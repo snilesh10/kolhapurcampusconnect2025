@@ -315,6 +315,10 @@ table.camptix-invoice-details tr td input[type=text],table.camptix-invoice-detai
 		padding-right:10px !important;
 		
 	}
+	#cc-partner-collages
+	{
+		flex-direction:column !important;
+	}
 	#cc-partner-collages figure{
 		width:100% !important;
 	}
