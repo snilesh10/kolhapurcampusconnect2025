@@ -308,3 +308,19 @@ table.camptix-invoice-details tr td input[type=text],table.camptix-invoice-detai
 	padding:30px !important;
 	border-radius: 20px !important;
 }
+
+@media screen and (max-width: 599px) {
+	.cc-get-involved .wp-block-column{
+		width:90% !important;
+	}
+	
+	
+	.page-slug-sponsors .tix-attendee-list{
+		padding:0px!important;
+		justify-content:center !important;
+		gap:10px !important;
+	}
+	.page-slug-sponsors  #tix-attendees .tix-columns-5 li{
+		width:100% !important;
+	}
+}
