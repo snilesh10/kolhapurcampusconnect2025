@@ -310,6 +310,9 @@ table.camptix-invoice-details tr td input[type=text],table.camptix-invoice-detai
 }
 
 @media screen and (max-width: 599px) {
+	.cc-get-involved{
+		width:100% !important;
+	}
 	.cc-get-involved .wp-block-column{
 		width:90% !important;
 		background:yellow !important;
