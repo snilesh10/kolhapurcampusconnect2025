@@ -322,7 +322,10 @@ table.camptix-invoice-details tr td input[type=text],table.camptix-invoice-detai
 	#cc-partner-collages figure{
 		width:100% !important;
 	}
-	
+	#cc-partner-collages figure img{
+		max-height:250px !important;
+		width:auto !important;
+	}
 	.page-slug-sponsors .tix-attendee-list{
 		padding:0px!important;
 		justify-content:center !important;
