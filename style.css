@@ -325,6 +325,7 @@ table.camptix-invoice-details tr td input[type=text],table.camptix-invoice-detai
 		background:#333333 !important;
 		border-radius:10px !important;
 		text-align: center !important;
+		padding:20px !important;
 	}
 	#cc-partner-collages figure img{
 		max-height:250px !important;
