@@ -341,3 +341,7 @@ table.camptix-invoice-details tr td input[type=text],table.camptix-invoice-detai
 		width:100% !important;
 	}
 }
+
+.tix-column-quantity select option + option + option {
+    display: none;
+}
