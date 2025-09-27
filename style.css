@@ -320,7 +320,11 @@ table.camptix-invoice-details tr td input[type=text],table.camptix-invoice-detai
   box-sizing: border-box;
   height: 100%; /* Ensures consistency */
 }
-
+#cc-partner-collages figure img {
+  height: 250px; /* Set equal height */
+  width: auto;   /* Maintain aspect ratio */
+  object-fit: contain; /* Ensure image fits inside container */
+}
 #cc-partner-collages figure:last-child {
   background-color: #f5f5f5; /* Lighter background for last figure */
 }
