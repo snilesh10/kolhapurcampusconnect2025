@@ -303,7 +303,11 @@ table.camptix-invoice-details tr td input[type=text],table.camptix-invoice-detai
 	padding:0px 0px 0px 20px !important;
 	margin:0px !important;
 	}
-#cc-partner-collages img{
+#cc-partner-collages {
+	display:flex;
+	flex-direction: column !important;
+}	
+#cc-partner-collages figure{
 	background:#333333 !important;
 	padding:30px !important;
 	border-radius: 20px !important;
