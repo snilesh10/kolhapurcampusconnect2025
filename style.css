@@ -319,13 +319,14 @@ table.camptix-invoice-details tr td input[type=text],table.camptix-invoice-detai
   margin: 0;
   box-sizing: border-box;
   height: 100%; /* Ensures consistency */
+  border-radius:20px;
 }
 #cc-partner-collages figure img {
   height: 250px; /* Set equal height */
   width: auto;   /* Maintain aspect ratio */
   object-fit: contain; /* Ensure image fits inside container */
 }
-#cc-partner-collages figure:last-child {
+#cc-partner-collages figure:last-child,#cc-partner-collages figure:first-child {
   background-color: #f5f5f5; /* Lighter background for last figure */
 }
 @media screen and (max-width: 599px) {
