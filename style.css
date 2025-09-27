@@ -304,15 +304,26 @@ table.camptix-invoice-details tr td input[type=text],table.camptix-invoice-detai
 	margin:0px !important;
 	}
 #cc-partner-collages {
-	display:flex;
-	flex-direction: row !important;
+  display: flex;
+  flex-direction: row;
+  gap: 16px; /* Optional spacing between figures */
+  align-items: stretch; /* Ensure equal height for all children */
 }	
-#cc-partner-collages figure{
-	background:#333333 !important;
-	padding:30px !important;
-	border-radius: 20px !important;
+#cc-partner-collages figure {
+  flex: 1;
+  background-color: #666666; /* General background color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%; /* Ensures consistency */
 }
 
+#cc-partner-collages figure:last-child {
+  background-color: #f5f5f5; /* Lighter background for last figure */
+}
 @media screen and (max-width: 599px) {
 	.cc-get-involved{
 		padding-left:10px !important;
