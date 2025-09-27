@@ -315,7 +315,7 @@ table.camptix-invoice-details tr td input[type=text],table.camptix-invoice-detai
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 16px;
+  padding: 16px 0px 16px 0px;
   margin: 0;
   box-sizing: border-box;
   height: 100%; /* Ensures consistency */
@@ -329,29 +329,25 @@ table.camptix-invoice-details tr td input[type=text],table.camptix-invoice-detai
 #cc-partner-collages figure:last-child,#cc-partner-collages figure:first-child {
   background-color: #f5f5f5; /* Lighter background for last figure */
 }
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 640px) {
 	.cc-get-involved{
 		padding-left:10px !important;
 		padding-right:10px !important;
 		
 	}
-	#cc-partner-collages
-	{
-		flex-direction:column !important;
-		justify-content: center !important;
-	}
-	#cc-partner-collages figure{
-		width:90% !important;
-		background:#333333 !important;
-		border-radius:10px !important;
-		text-align: center !important;
-		padding:20px !important;
-	}
-	#cc-partner-collages figure img{
-		max-height:250px !important;
-		width:auto !important;
-		padding:0px !important;
-	}
+	#cc-partner-collages {
+    flex-direction: column;        /* stack figures */
+  }
+  #cc-partner-collages figure {
+    width: 100%;
+  }
+  #cc-partner-collages figure img {
+    height: auto;                  /* allow natural scaling */
+    max-height: 150px;             /* cap logo height at 150px */
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+  }
 	.page-slug-sponsors .tix-attendee-list{
 		padding:0px!important;
 		justify-content:center !important;
