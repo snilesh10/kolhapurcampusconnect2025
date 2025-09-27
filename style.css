@@ -305,7 +305,7 @@ table.camptix-invoice-details tr td input[type=text],table.camptix-invoice-detai
 	}
 #cc-partner-collages {
 	display:flex;
-	flex-direction: column !important;
+	flex-direction: row !important;
 }	
 #cc-partner-collages figure{
 	background:#333333 !important;
