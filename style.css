@@ -315,7 +315,7 @@ table.camptix-invoice-details tr td input[type=text],table.camptix-invoice-detai
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 16px 0px 16px 0px;
+  padding: 16px 10px 16px 10px;
   margin: 0;
   box-sizing: border-box;
   height: 100%; /* Ensures consistency */
