@@ -311,7 +311,7 @@ table.camptix-invoice-details tr td input[type=text],table.camptix-invoice-detai
 }	
 #cc-partner-collages figure {
   flex: 1;
-  background-color: #666666; /* General background color */
+  background-color: #303030; /* General background color */
   display: flex;
   align-items: center;
   justify-content: center;
