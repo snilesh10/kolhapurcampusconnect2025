@@ -311,7 +311,7 @@ table.camptix-invoice-details tr td input[type=text],table.camptix-invoice-detai
 }	
 #cc-partner-collages figure {
   flex: 1;
-  background-color: #373737; /* General background color */
+  background-color: #ffffff; /* General background color */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -326,8 +326,8 @@ table.camptix-invoice-details tr td input[type=text],table.camptix-invoice-detai
   width: auto;   /* Maintain aspect ratio */
   object-fit: contain; /* Ensure image fits inside container */
 }
-#cc-partner-collages figure:last-child,#cc-partner-collages figure:first-child {
-  background-color: #f5f5f5; /* Lighter background for last figure */
+#cc-partner-collages figure:second-child{
+  background-color: #373737; /* Lighter background for last figure */
 }
 @media screen and (max-width: 640px) {
 	.cc-get-involved{
