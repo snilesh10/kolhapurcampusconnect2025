@@ -326,7 +326,7 @@ table.camptix-invoice-details tr td input[type=text],table.camptix-invoice-detai
   width: auto;   /* Maintain aspect ratio */
   object-fit: contain; /* Ensure image fits inside container */
 }
-#cc-partner-collages figure:second-child{
+#cc-partner-collages figure.dyp-logo{
   background-color: #373737; /* Lighter background for last figure */
 }
 @media screen and (max-width: 640px) {
