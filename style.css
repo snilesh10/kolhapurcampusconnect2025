@@ -361,3 +361,11 @@ table.camptix-invoice-details tr td input[type=text],table.camptix-invoice-detai
 .tix-column-quantity select option + option + option {
     display: none;
 }
+
+.kolhapur-news-box li {
+    margin-bottom: 20px !important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+    display: block;
+    overflow: hidden;
+    border-radius: 10px !important;
+}
